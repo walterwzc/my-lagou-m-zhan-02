@@ -1,0 +1,19 @@
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+$base-color: #00b38a;
+@font-face {
+    font-family: 'yofont';
+    // src: url('http://fe.qfqp5.com:8000/static/fonts/iconfont.woff') format('woff'), 
+    // url('http://fe.qfqp5.com:8000/static/fonts/iconfont.ttf') format('truetype');
+    src: url('http://localhost:8000/static/fonts/iconfont.woff') format('woff'), 
+    url('http://localhost:8000/static/fonts/iconfont.ttf') format('truetype');
+}
+
+.swiper-container {
+    @include flex();
+    display: block;
+    width: 100%;
+}

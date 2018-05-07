@@ -1,0 +1,15 @@
+{{each result}}
+  <li>
+    <img src="//static.lagou.com/{{$value.companyLogo}}">
+    <div>
+      <h2>{{$value.companyName}}</h2>
+      <p>
+        <span>
+          {{$value.positionName}}
+        </span>
+        <span>{{$value.salary}}</span>
+      </p>
+      <p>{{$value.createTime}}</p>
+    </div>
+  </li>
+{{/each}}
